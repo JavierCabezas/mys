@@ -42,15 +42,15 @@
     :: Import all css 
     ************************* */
     
-    @import 'css/bootstrap.min.css';
-    @import 'css/nivoslider.css';
-    @import 'css/magnific-popup.css';
-    @import 'css/animate.css';
-    @import 'css/meanmenu.css';
-    @import 'css/font-awesome.min.css';
-    @import 'css/owl.carousel.css';
-    @import 'css/et-line.css';
-    @import 'css/YTPlayer.css';
+    @import 'src/assets/css/bootstrap.min.css';
+    @import 'src/assets/css/nivoslider.css';
+    @import 'src/assets/css/magnific-popup.css';
+    @import 'src/assets/css/animate.css';
+    @import 'src/assets/css/meanmenu.css';
+    @import 'src/assets/css/font-awesome.min.css';
+    @import 'src/assets/css/owl.carousel.css';
+    @import 'src/assets/css/et-line.css';
+    @import 'src/assets/css/YTPlayer.css';
     /* *************************
     :: 1.0 Fonts 
     ************************* */
