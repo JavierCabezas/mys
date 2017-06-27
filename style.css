@@ -229,7 +229,7 @@
     div#preloader {
         overflow: hidden;
         background-color: #fff;
-        background-image: url(img/core-img/preloader.gif);
+        background-image: url(src/assets/img/core-img/preloader.gif);
         background-repeat: no-repeat;
         background-position: center center;
         height: 100%;
@@ -607,7 +607,7 @@
     ************************* */
     
     .call_to_action {
-        background-image: url(img/bg-pattern/call-to-bg.jpg);
+        background-image: url(src/assets/img/bg-pattern/call-to-bg.jpg);
         background-size: cover;
         background-position: 0 0;
         position: relative;
@@ -902,7 +902,7 @@
     
     .our_speciality_area {
         background-color: #fff;
-        background-image: url(img/bg-pattern/breadcumb.jpg);
+        background-image: url(src/assets/img/bg-pattern/breadcumb.jpg);
         background-position: center center;
         background-size: cover;
         padding-bottom: 85px;
@@ -1101,7 +1101,7 @@
     .video_area {
         position: relative;
         z-index: 1;
-        background-image: url(img/bg-pattern/video.jpg);
+        background-image: url(src/assets/img/bg-pattern/video.jpg);
         background-position: center center;
         background-size: cover;
         width: 100%;
@@ -1360,7 +1360,7 @@
     .testimonial_area {
         position: relative;
         z-index: 1;
-        background-image: url(img/bg-pattern/tes-bg.jpg);
+        background-image: url(src/assets/img/bg-pattern/tes-bg.jpg);
         background-position: center center;
         background-attachment: fixed;
     }
@@ -1666,7 +1666,7 @@
     .breadcumb_area {
         height: 260px;
         width: 100%;
-        background-image: url(img/bg-pattern/breadcumb.jpg);
+        background-image: url(src/assets/img/bg-pattern/breadcumb.jpg);
         background-size: cover;
         position: relative;
         background-position: center center;
@@ -1982,7 +1982,7 @@
     }
     
     .gallery_area .single_gallery_item>a {
-        cursor: url(img/core-img/add.png), auto;
+        cursor: url(src/assets/img/core-img/add.png), auto;
     }
     
     .gallery_area .single_gallery_item .hover_overlay {
@@ -2409,5 +2409,5 @@
     }
     
     .dark_version .gallery_area .single_gallery_item>a {
-        cursor: url(img/core-img/add-white.png), auto;
+        cursor: url(src/assets/img/core-img/add-white.png), auto;
     }
