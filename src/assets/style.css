@@ -2411,3 +2411,7 @@
     .dark_version .gallery_area .single_gallery_item>a {
         cursor: url(img/core-img/add-white.png), auto;
     }
+
+    .single_slide{
+        background-image: url(img/bg-pattern/bg-2.jpg);
+    }

@@ -2411,3 +2411,7 @@
     .dark_version .gallery_area .single_gallery_item>a {
         cursor: url(src/assets/img/core-img/add-white.png), auto;
     }
+
+    .faq_question_area {
+        background-image: url(src/assets/img/bg-pattern/faq.jpg);
+    }
