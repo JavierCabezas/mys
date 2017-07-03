@@ -6,11 +6,13 @@
                     <div class="col-xs-12 col-md-8 section_padding_100 wow fadeInUp">
                         <!-- Section Heading Start -->
                         <div class="section_heading">
-                            <p>About our company</p>
-                            <h3>Welcome to Biz</h3>
+                            <p>Sobre nosotros</p>
+                            <h3>Bienvenido a M&S consultores</h3>
                         </div>
                         <div class="about_us_text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta numquam ad voluptatibus delectus iusto earum nam, quidem porro autem, eligendi modi provident facere accusantium quo possimus sint, voluptatem fugiat, magni illum dolor. Sapiente dolore velit excepturi atque. Hic iusto eveniet mollitia sit in nulla odio eaque quo perspiciatis quis, eligendi praesentium culpa excepturi voluptatem repellendus cupiditate magni accusamus incidunt a numquam ea repellat maiores laudantium? Blanditiis minima, quibusdam non reprehenderit asperiores eveniet laborum vel aspernatur? Eveniet facilis delectus, illum minus doloribus labore, porro optio totam, explicabo laudantium eligendi ipsum molestias excepturi tempora molestiae quis officiis!</p>
+                            <p>Vigente como empresa consultora desde septiembre del año 2012, trabajando con un equipo de profesionales senior, los cuales son el soporte especialista en las distintas áreas donde presentamos nuestro servicio. </p>
+                            <p> Nuestra misión es entregar valor a nuestros clientes, generando ventajas competitivas para la sustentabilidad de sus servicios o productos, desarrollando soluciones a las necesidades reales de nuestros clientes a través del desarrollo. </p>
+                            <p> La metodología de trabajo de M&S nos permite abordar cualquier tipo de organización de forma integral, independiente de su tamaño, extensión geográfica o rubro.</p>
                         </div>
 
                         <div class="signature_area">

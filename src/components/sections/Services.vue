@@ -5,8 +5,8 @@
                 <div class="col-xs-12">
                     <!-- Section Heading Start -->
                     <div class="section_heading">
-                        <p>our best service</p>
-                        <h3>What we do</h3>
+                        <p>Nuestros servicios</p>
+                        <h3>¿Qué hacemos?</h3>
                     </div>
                     <!-- Section Heading End -->
                 </div>
@@ -14,244 +14,25 @@
 
             <div class="row">
 
-                <!-- Single Service Area Start -->
-                <div class="col-sm-6 col-md-4 col-lg-3">
+                <div v-for="service in services" class="col-sm-6 col-md-4 col-lg-3">
                     <div class="single_service wow fadeInUp" data-wow-delay=".2s">
-                        <!-- Single Service image -->
                         <div class="single_service_img">
-                            <img :src="service_img_3" alt="">
+                            <img :src="service.img" alt="">
                         </div>
-                        <!-- Single Service title -->
                         <div class="single_service_title">
-                            <h4>Investment Planning</h4>
+                            <h4> {{ service.title }}</h4>
                         </div>
                         <!-- Single Service content -->
                         <div class="single_service_content">
                             <div class="table">
                                 <div class="table_cell">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis esse odit modi, neque laboriosam sed, nam soluta impedit, voluptate reprehenderit enim totam consectetur tempore debitis.</p>
+                                    {{ service.description }}
                                 </div>
                             </div>
                         </div>
                         <div class="learn_more">
                             <a data-target="#service_details" data-toggle="modal" href="#">
-                                <h4>Learn More</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Service Area Start -->
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="single_service wow fadeInUp" data-wow-delay=".4s">
-                        <!-- Single Service image -->
-                        <div class="single_service_img">
-                            <img :src="service_img_1" alt="">
-                        </div>
-                        <!-- Single Service title -->
-                        <div class="single_service_title">
-                            <h4>Finance Planning</h4>
-                        </div>
-                        <!-- Single Service content -->
-                        <div class="single_service_content">
-                            <div class="table">
-                                <div class="table_cell">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis esse odit modi, neque laboriosam sed, nam soluta impedit, voluptate reprehenderit enim totam consectetur tempore debitis.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="learn_more">
-                            <a data-target="#service_details" data-toggle="modal" href="#">
-                                <h4>Learn More</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Service Area Start -->
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="single_service wow fadeInUp" data-wow-delay=".6s">
-                        <!-- Single Service image -->
-                        <div class="single_service_img">
-                            <img :src="service_img_2" alt="">
-                        </div>
-                        <!-- Single Service title -->
-                        <div class="single_service_title">
-                            <h4>Banking Planning</h4>
-                        </div>
-                        <!-- Single Service content -->
-                        <div class="single_service_content">
-                            <div class="table">
-                                <div class="table_cell">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis esse odit modi, neque laboriosam sed, nam soluta impedit, voluptate reprehenderit enim totam consectetur tempore debitis.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="learn_more">
-                            <a data-target="#service_details" data-toggle="modal" href="#">
-                                <h4>Learn More</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Service Area Start -->
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="single_service wow fadeInUp" data-wow-delay=".8s">
-                        <!-- Single Service image -->
-                        <div class="single_service_img">
-                            <img :src="service_img_4" alt="">
-                        </div>
-                        <!-- Single Service title -->
-                        <div class="single_service_title">
-                            <h4>SME Planning</h4>
-                        </div>
-                        <!-- Single Service content -->
-                        <div class="single_service_content">
-                            <div class="table">
-                                <div class="table_cell">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis esse odit modi, neque laboriosam sed, nam soluta impedit, voluptate reprehenderit enim totam consectetur tempore debitis.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="learn_more">
-                            <a data-target="#service_details" data-toggle="modal" href="#">
-                                <h4>Learn More</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Service Area Start -->
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="single_service wow fadeInUp" data-wow-delay="1s">
-                        <!-- Single Service image -->
-                        <div class="single_service_img">
-                            <img :src="service_img_1" alt="">
-                        </div>
-                        <!-- Single Service title -->
-                        <div class="single_service_title">
-                            <h4>Investment Planning</h4>
-                        </div>
-                        <!-- Single Service content -->
-                        <div class="single_service_content">
-                            <div class="table">
-                                <div class="table_cell">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis esse odit modi, neque laboriosam sed, nam soluta impedit, voluptate reprehenderit enim totam consectetur tempore debitis.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="learn_more">
-                            <a data-target="#service_details" data-toggle="modal" href="#">
-                                <h4>Learn More</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Service Area Start -->
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="single_service wow fadeInUp" data-wow-delay="1.2s">
-                        <!-- Single Service image -->
-                        <div class="single_service_img">
-                            <img :src="service_img_2" alt="">
-                        </div>
-                        <!-- Single Service title -->
-                        <div class="single_service_title">
-                            <h4>Financial Planning</h4>
-                        </div>
-                        <!-- Single Service content -->
-                        <div class="single_service_content">
-                            <div class="table">
-                                <div class="table_cell">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis esse odit modi, neque laboriosam sed, nam soluta impedit, voluptate reprehenderit enim totam consectetur tempore debitis.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="learn_more">
-                            <a data-target="#service_details" data-toggle="modal" href="#">
-                                <h4>Learn More</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Service Area Start -->
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="single_service wow fadeInUp" data-wow-delay="1.4s">
-                        <!-- Single Service image -->
-                        <div class="single_service_img">
-                            <img :src="service_img_3" alt="">
-                        </div>
-                        <!-- Single Service title -->
-                        <div class="single_service_title">
-                            <h4>Educational Support</h4>
-                        </div>
-                        <!-- Single Service content -->
-                        <div class="single_service_content">
-                            <div class="table">
-                                <div class="table_cell">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis esse odit modi, neque laboriosam sed, nam soluta impedit, voluptate reprehenderit enim totam consectetur tempore debitis.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="learn_more">
-                            <a data-target="#service_details" data-toggle="modal" href="#">
-                                <h4>Learn More</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Service Area Start -->
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="single_service wow fadeInUp" data-wow-delay="1.6s">
-                        <!-- Single Service image -->
-                        <div class="single_service_img">
-                            <img :src="service_img_4" alt="">
-                        </div>
-                        <!-- Single Service title -->
-                        <div class="single_service_title">
-                            <h4>Business Advisor</h4>
-                        </div>
-                        <!-- Single Service content -->
-                        <div class="single_service_content">
-                            <div class="table">
-                                <div class="table_cell">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis esse odit modi, neque laboriosam sed, nam soluta impedit, voluptate reprehenderit enim totam consectetur tempore debitis.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="learn_more">
-                            <a data-target="#service_details" data-toggle="modal" href="#">
-                                <h4>Learn More</h4>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Service Area Start -->
-                <div class="col-sm-6 col-md-4 col-lg-3 hidden-sm hidden-xs hidden-lg">
-                    <div class="single_service wow fadeInUp" data-wow-delay="1.8s">
-                        <!-- Single Service image -->
-                        <div class="single_service_img">
-                            <img :src="service_img_1" alt="">
-                        </div>
-                        <!-- Single Service title -->
-                        <div class="single_service_title">
-                            <h4>Business Advisor</h4>
-                        </div>
-                        <!-- Single Service content -->
-                        <div class="single_service_content">
-                            <div class="table">
-                                <div class="table_cell">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis esse odit modi, neque laboriosam sed, nam soluta impedit, voluptate reprehenderit enim totam consectetur tempore debitis.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="learn_more">
-                            <a data-target="#service_details" data-toggle="modal" href="#">
-                                <h4>Learn More</h4>
+                                <h4>Ver más detalles</h4>
                             </a>
                         </div>
                     </div>
@@ -265,10 +46,48 @@
     export default {
         data () {
             return {
-                service_img_1: "../../src/assets/img/services-img/service-1.jpg",
-                service_img_2: "../../src/assets/img/services-img/service-2.jpg",
-                service_img_3: "../../src/assets/img/services-img/service-3.jpg",
-                service_img_4: "../../src/assets/img/services-img/service-4.jpg",
+                services: [
+                    {
+                        title: 'Actualización de normas',
+                        img: "../../src/assets/img/services-img/service-1.jpg",
+                        description: 'Realizado mediante 3 etapas de trabajo; capacitación, información documentada y verificación (seguimiento).'
+                    },
+                    {
+                        title: 'Mantención y seguimiento en normas',
+                        img: "../../src/assets/img/services-img/service-2.jpg",
+                        description: 'A través de un profesional con la preparación y competencias necesarias, se realiza un servicio outsourcing dentro de la empresa, coordinando el o los sistema(s) normativos que se posean'
+                    },
+                    {
+                        title: 'Implementación de las normas',
+                        img: "../../src/assets/img/services-img/service-3.jpg",
+                        description: 'Realizado mediante 3 etapas de trabajo; capacitación, información documentada y verificación (seguimiento)'
+                    },
+                    {
+                        title: 'Asesorías',
+                        img: "../../src/assets/img/services-img/service-4.jpg",
+                        description: 'Dentro de las asesorías estarán las actividades de capacitación, documentación específica y legal en diversos temas, talleres, workshops, modelamiento de procesos, entre otros.'
+                    },
+                    {
+                        title: 'Capacitaciones',
+                        img: "../../src/assets/img/services-img/service-1.jpg",
+                        description: 'Seguridad y salud, Conductores de grúa horquilla, curso de primeros auxilios, Auditor interno ISO 9001, Auditor interno OHSAS 18001, Ingles básico, y nivel intermedio, entre otros.'
+                    },
+                    {
+                        title: 'Traducción de normas',
+                        img: "../../src/assets/img/services-img/service-2.jpg",
+                        description: 'Poner una descripción aquí'
+                    },
+                    {
+                        title: 'Coaching bilingüe',
+                        img: "../../src/assets/img/services-img/service-3.jpg",
+                        description: 'Poner descripcion aquí'
+                    },
+                    {
+                        title: 'Auditoria interna de normas',
+                        img: "../../src/assets/img/services-img/service-4.jpg",
+                        description: 'Servicio realizado mediante personal profesional y preparado, añadiendo como valor agregado el apoyo y resolución de no conformidades.'
+                    }
+                ]
             }
         }
     }
