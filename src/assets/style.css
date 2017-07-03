@@ -720,6 +720,7 @@
         transition-duration: 500ms;
         width: 100%;
         z-index: 5;
+        display: table;
     }
     
     .learn_more {
@@ -727,7 +728,7 @@
         left: 0;
         position: absolute;
         right: 0;
-        top: calc(100% - 51px);
+        top: calc(100% - 80px);
         width: 100%;
         z-index: 999;
         -webkit-transition-duration: 500ms;
@@ -746,6 +747,9 @@
         text-align: center;
         -webkit-transition-duration: 500ms;
         transition-duration: 500ms;
+        height: 80px;
+        vertical-align: middle;
+        display: table-cell;
     }
     
     .single_service_content {
@@ -794,6 +798,8 @@
     
     .single_service:hover .learn_more>a>h4 {
         background-color: #e67e22;
+        display: block;
+        padding-top: 11%;
     }
     /* service details modal area css */
     
