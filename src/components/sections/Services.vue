@@ -3,12 +3,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <!-- Section Heading Start -->
                     <div class="section_heading">
                         <p>Nuestros servicios</p>
                         <h3>¿Qué hacemos?</h3>
                     </div>
-                    <!-- Section Heading End -->
                 </div>
             </div>
 
