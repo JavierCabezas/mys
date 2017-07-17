@@ -23,8 +23,6 @@
                                         <li><a href="#service">Service</a></li>
                                         <li><a href="#advisor">Advisor</a></li>
                                         <li><a href="#work">Work</a></li>
-                                        <li><a href="#price">Prices</a></li>
-                                        <li><a href="#blog">Blog</a></li>
                                         <li><a href="#contact">Contact</a></li>
                                     </ul>
                                 </nav>

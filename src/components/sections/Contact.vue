@@ -61,59 +61,38 @@
                 </div>
 
                 <div class="col-xs-12 col-sm-4 col-lg-3 col-lg-offset-1">
-                    <!-- Section Heading Start -->
                     <div class="section_heading text-left">
-                        <p>meet with us</p>
-                        <h3>our location</h3>
+                        <p>Ven a conocernos</p>
+                        <h3>Nuestras oficinas</h3>
                     </div>
-                    <!-- Section Heading End -->
 
-                    <!-- Adress Area -->
                     <div class="address-area wow fadeInUp" data-wow-delay=".4s">
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="single_part">
                                     <i class="fa fa-globe" aria-hidden="true"></i>
-                                    <p>House - 87, Mirpur DOHS,</p>
-                                    <p>Dhaka, Bangladesh</p>
+                                    <p>Padre Mariano 391</p>
+                                    <p>Providencia, Santiago</p>
                                 </div>
                             </div>
 
                             <div class="col-xs-12">
                                 <div class="single_part">
                                     <i class="fa fa-phone" aria-hidden="true"></i>
-                                    <a href="tel:+8801791166123">+88 017 911 66123</a>
-                                    <a href="tel:+8801791166123">+88 017 911 66123</a>
+                                    <a href="tel:+56982933296">+569 829 33296</a>
                                 </div>
                             </div>
 
                             <div class="col-xs-12">
                                 <div class="single_part">
                                     <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <a href="mailto:info@educamp.com">info@biz.com</a>
-                                    <a href="mailto:care@educamp.com">care@biz.com</a>
+                                    <a href="mailto:ventas@mysempresas.cl">ventas@mysempresas.cl</a>
                                 </div>
                             </div>
 
-                            <div class="col-xs-12">
-                                <div class="single_part">
-                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
-                                    <p>Sun - Wed 10:00am - 05.00pm</p>
-                                    <p>Thu 10:00am - 02.00pm</p>
-                                </div>
-                            </div>
-                            <div class="col-xs-12">
-                                <div class="social_links_area">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
