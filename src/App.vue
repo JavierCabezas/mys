@@ -7,7 +7,6 @@
       <services></services>
       <advisor></advisor>
       <faq></faq>
-      <work-details></work-details>
       <projects></projects>
       <contact></contact>
       <google-map></google-map>
@@ -23,7 +22,6 @@
     import Services from './components/sections/Services.vue'
     import Advisor from './components/sections/Advisor.vue'
     import Faq from './components/sections/Faq.vue'
-    import WorkDetails from './components/sections/WorkDetails.vue'
     import Projects from './components/sections/Projects.vue'
     import Contact from './components/sections/Contact.vue'
     import GoogleMap from './components/sections/GoogleMap.vue'
@@ -39,7 +37,6 @@
             services: Services,
             advisor: Advisor,
             faq: Faq,
-            workDetails: WorkDetails,
             projects: Projects,
             contact: Contact,
             googleMap: GoogleMap,

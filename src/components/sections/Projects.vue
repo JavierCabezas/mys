@@ -17,7 +17,6 @@
 
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wow fadeInUp" data-wow-delay="0.2s">
-                <a data-target="#works_details" data-toggle="modal" href="#">
                     <img :src="gallery_img_1" alt="">
                     <!-- Single gallery Item hover caption -->
                     <div class="hover_overlay">
@@ -26,12 +25,10 @@
                             <p>Biz</p>
                         </div>
                     </div>
-                </a>
             </div>
 
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wow fadeInUp" data-wow-delay=".4s">
-                <a data-target="#works_details" data-toggle="modal" href="#">
                     <img :src="gallery_img_2" alt="">
                     <!-- Single gallery Item hover caption -->
                     <div class="hover_overlay">
@@ -40,12 +37,10 @@
                             <p>Biz</p>
                         </div>
                     </div>
-                </a>
             </div>
 
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wow fadeInUp" data-wow-delay=".6s">
-                <a data-target="#works_details" data-toggle="modal" href="#">
                     <img :src="gallery_img_3" alt="">
                     <!-- Single gallery Item hover caption -->
                     <div class="hover_overlay">
@@ -54,12 +49,10 @@
                             <p>Biz</p>
                         </div>
                     </div>
-                </a>
             </div>
 
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wow fadeInUp" data-wow-delay=".8s">
-                <a data-target="#works_details" data-toggle="modal" href="#">
                     <img :src="gallery_img_4" alt="">
                     <!-- Single gallery Item hover caption -->
                     <div class="hover_overlay">
@@ -68,12 +61,10 @@
                             <p>Biz</p>
                         </div>
                     </div>
-                </a>
             </div>
 
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wow fadeInUp" data-wow-delay="1s">
-                <a data-target="#works_details" data-toggle="modal" href="#">
                     <img :src="gallery_img_5" alt="">
                     <!-- Single gallery Item hover caption -->
                     <div class="hover_overlay">
@@ -82,12 +73,10 @@
                             <p>Biz</p>
                         </div>
                     </div>
-                </a>
             </div>
 
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wow fadeInUp" data-wow-delay="1.2s">
-                <a data-target="#works_details" data-toggle="modal" href="#">
                     <img :src="gallery_img_6" alt="">
                     <!-- Single gallery Item hover caption -->
                     <div class="hover_overlay">
@@ -96,12 +85,10 @@
                             <p>Biz</p>
                         </div>
                     </div>
-                </a>
             </div>
 
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wow fadeInUp" data-wow-delay="1.4s">
-                <a data-target="#works_details" data-toggle="modal" href="#">
                     <img :src="gallery_img_7" alt="">
                     <!-- Single gallery Item hover caption -->
                     <div class="hover_overlay">
@@ -110,12 +97,10 @@
                             <p>Biz</p>
                         </div>
                     </div>
-                </a>
             </div>
 
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wow fadeInUp" data-wow-delay="1.6s">
-                <a data-target="#works_details" data-toggle="modal" href="#">
                     <img :src="gallery_img_8" alt="">
                     <!-- Single gallery Item hover caption -->
                     <div class="hover_overlay">
@@ -124,7 +109,6 @@
                             <p>Biz</p>
                         </div>
                     </div>
-                </a>
             </div>
 
         </div>
