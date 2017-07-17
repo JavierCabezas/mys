@@ -2,18 +2,13 @@
   <div id="app">
       <header-area></header-area>
       <welcome></welcome>
-      <special-feature></special-feature>
       <about-us></about-us>
-      <cool-facts></cool-facts>
       <service-detail></service-detail>
       <services></services>
       <advisor></advisor>
       <faq></faq>
       <work-details></work-details>
       <projects></projects>
-      <price></price>
-      <testimonials></testimonials>
-      <blog></blog>
       <contact></contact>
       <google-map></google-map>
       <foot></foot>
