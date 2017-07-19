@@ -47,7 +47,7 @@
                 services: [
                     {
                         title: 'Actualización de normas',
-                        img: "../../src/assets/img/services-img/service-1.jpg",
+                        img: "../../src/assets/img/services-img/actualizacion_normas.png",
                         description: 'Realizado mediante 3 etapas de trabajo; capacitación, información documentada y verificación (seguimiento).'
                     },
                     {
@@ -57,7 +57,7 @@
                     },
                     {
                         title: 'Implementación de las normas',
-                        img: "../../src/assets/img/services-img/service-3.jpg",
+                        img: "../../src/assets/img/services-img/implementacion_normas.png",
                         description: 'Realizado mediante 3 etapas de trabajo; capacitación, información documentada y verificación (seguimiento)'
                     },
                     {
@@ -67,17 +67,17 @@
                     },
                     {
                         title: 'Capacitaciones',
-                        img: "../../src/assets/img/services-img/service-1.jpg",
+                        img: "../../src/assets/img/services-img/capacitaciones.png",
                         description: 'Seguridad y salud, Conductores de grúa horquilla, curso de primeros auxilios, Auditor interno ISO 9001, Auditor interno OHSAS 18001, Ingles básico, y nivel intermedio, entre otros.'
                     },
                     {
                         title: 'Traducción de normas',
-                        img: "../../src/assets/img/services-img/service-2.jpg",
+                        img: "../../src/assets/img/services-img/traduccion_normas.png",
                         description: 'Poner una descripción aquí'
                     },
                     {
                         title: 'Coaching bilingüe',
-                        img: "../../src/assets/img/services-img/service-3.jpg",
+                        img: "../../src/assets/img/services-img/coaching_bilingue.png",
                         description: 'Poner descripcion aquí'
                     },
                     {
