@@ -11,7 +11,7 @@
         </div>
 
         <div class="contact_from wow fadeInUp" data-wow-delay=".2s">
-            <form action="mail.php" method="post" id="main_contact_form">
+            <div class="form">
                 <!-- Message Input Area Start -->
                 <div class="contact_input_area">
                     <div id="success_fail_info"></div>
@@ -48,12 +48,55 @@
                         </div>
                         <!-- Single Input Area Start -->
                         <div class="col-xs-12">
-                            <button type="submit" class="btn btn-default">Enviar mensaje</button>
+                            <button type="submit" @click.prevent="send_form()" class="btn btn-default" :class="{send_form: 'disabled'}">Enviar mensaje</button>
                         </div>
                     </div>
                 </div>
                 <!-- Message Input Area End -->
-            </form>
+            </div>
         </div>
     </div>
 </template>
+
+
+<script>
+    export default {
+        data () {
+            return {
+                form: {
+                    name: null,
+                    email: null,
+                    subject: null,
+                    number: null,
+                    message: null,
+                },
+                form_sent: false
+            }
+        },
+        methods: {
+            send_form: function() {
+                let vm = this;
+                let url = "www.asdf.com";
+                if(!vm.form_sent){
+                    $.ajax({
+                        url: url,
+                        data: vm.form,
+                        type: "post",
+                        success: function (result) {
+                            vm.items = result;
+                            vm.form.name = null;
+                            vm.form.email = null;
+                            vm.form.subject = null;
+                            vm.form.number = null;
+                            vm.form.message = null;
+                        },
+                        error: function(){
+                            alert("Error!");
+                        }
+                    });
+                }
+
+            }
+        }
+    }
+</script>
