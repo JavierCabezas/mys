@@ -17,33 +17,56 @@
                     <div id="success_fail_info"></div>
                     <div class="row">
                         <!-- Single Input Area Start -->
-                        <div class="col-sm-6 col-xs-12">
+                        <div class="col-xs-12">
                             <div class="form-group">
-                                <input type="text" class="form-control" name="name" id="name" placeholder="Tu nombre" required>
+                                <input
+                                        type="text"
+                                        class="form-control"
+                                        v-model="form.name"
+                                        name="name"
+                                        id="name"
+                                        placeholder="Tu nombre (*)"
+                                        required
+                                >
                             </div>
                         </div>
                         <!-- Single Input Area Start -->
                         <div class="col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Tu correo electrónico" required>
+                                <input type="email"
+                                       class="form-control"
+                                       v-model="form.email"
+                                       name="email" id="email"
+                                       placeholder="Tu correo electrónico (*)"
+                                       required
+                                >
                             </div>
                         </div>
                         <!-- Single Input Area Start -->
                         <div class="col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
-                            </div>
-                        </div>
-                        <!-- Single Input Area Start -->
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <input type="number" class="form-control" name="number" id="number" placeholder="Tu teléfono de contacto" required>
+                                <input type="number"
+                                       class="form-control"
+                                       v-model="form.number"
+                                       name="number"
+                                       id="number"
+                                       placeholder="Tu teléfono de contacto (*)"
+                                       required
+                                >
                             </div>
                         </div>
                         <!-- Single Input Area Start -->
                         <div class="col-xs-12">
                             <div class="form-group">
-                                <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Tu mensaje" required></textarea>
+                                <textarea name="message"
+                                          class="form-control"
+                                          id="message"
+                                          v-model="form.message"
+                                          cols="30" rows="10"
+                                          placeholder="Tu mensaje (*)"
+                                          required
+                                >
+                                </textarea>
                             </div>
                         </div>
                         <!-- Single Input Area Start -->
@@ -66,7 +89,6 @@
                 form: {
                     name: null,
                     email: null,
-                    subject: null,
                     number: null,
                     message: null,
                 },
@@ -76,8 +98,15 @@
         methods: {
             send_form: function() {
                 let vm = this;
-                let url = "www.asdf.com";
-                if(!vm.form_sent){
+                let url = vm.url_backend + '/contact.php';
+                let passes_validation = true;
+                if(vm.form.name === null || vm.form.email === null || vm.form.number === null || vm.form.message === null){
+                    passes_validation = false;
+                    alert("reemplazame por un sweetalert!: No se ingresaron todos los cambios requeridos")
+                }
+
+
+                if(!vm.form_sent && passes_validation){
                     $.ajax({
                         url: url,
                         data: vm.form,
@@ -86,16 +115,16 @@
                             vm.items = result;
                             vm.form.name = null;
                             vm.form.email = null;
-                            vm.form.subject = null;
                             vm.form.number = null;
                             vm.form.message = null;
+                            vm.form_sent = false;
                         },
                         error: function(){
-                            alert("Error!");
+                            alert("Reemplazame por un sweetalert de error!");
+                            vm.form_sent = false
                         }
                     });
                 }
-
             }
         }
     }
