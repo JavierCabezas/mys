@@ -52,7 +52,7 @@
                     },
                     {
                         title: 'Mantención y seguimiento en normas',
-                        img: "../../src/assets/img/services-img/service-2.jpg",
+                        img: "../../src/assets/img/services-img/mantencion_normas.jpg",
                         description: 'A través de un profesional con la preparación y competencias necesarias, se realiza un servicio outsourcing dentro de la empresa, coordinando el o los sistema(s) normativos que se posean'
                     },
                     {
