@@ -98,7 +98,7 @@
         methods: {
             send_form: function() {
                 let vm = this;
-                let url = vm.url_backend + '/contact.php';
+                let url = './backend/contact.php';
                 let passes_validation = true;
                 if(vm.form.name === null || vm.form.email === null || vm.form.number === null || vm.form.message === null){
                     passes_validation = false;
