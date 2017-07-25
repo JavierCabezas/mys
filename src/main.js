@@ -5,7 +5,7 @@ Vue.mixin({
     data: function() {
         return {
             get url_backend() {
-                return "http://localhost/mys/backend/";
+                return "https://www.mysempresas.cl/backend/";
             }
         }
     }
