@@ -5,11 +5,11 @@
  * Date: 7/19/17
  * Time: 9:28 PM
  */
-if(isset($_POST['form'])) {
-    $name = $_POST['form']['name'];
-    $email = $_POST['form']['email'];
-    $subject = $_POST['form']['subject'];
-    $number = $_POST['form']['number'];
-    $message = $_POST['form']['message'];
+if(isset($_POST)) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $number = $_POST['number'];
+    $message = "De: ".$name." Teléfono: ".$number." Mensaje: ".$_POST['message'];
     return mail('ventas@mysempresas', 'Contacto desde el sitio web', $message, $from);
 }
+
