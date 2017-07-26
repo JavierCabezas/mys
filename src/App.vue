@@ -6,8 +6,6 @@
       <service-detail></service-detail>
       <services></services>
       <advisor></advisor>
-      <faq></faq>
-      <projects></projects>
       <contact></contact>
       <google-map></google-map>
       <foot></foot>
@@ -21,8 +19,6 @@
     import ServiceDetail from './components/sections/ServiceDetail.vue'
     import Services from './components/sections/Services.vue'
     import Advisor from './components/sections/Advisor.vue'
-    import Faq from './components/sections/Faq.vue'
-    import Projects from './components/sections/Projects.vue'
     import Contact from './components/sections/Contact.vue'
     import GoogleMap from './components/sections/GoogleMap.vue'
     import Foot from './components/sections/Foot.vue'
@@ -36,8 +32,6 @@
             serviceDetail: ServiceDetail,
             services: Services,
             advisor: Advisor,
-            faq: Faq,
-            projects: Projects,
             contact: Contact,
             googleMap: GoogleMap,
             foot: Foot
