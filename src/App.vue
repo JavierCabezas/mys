@@ -5,8 +5,6 @@
       <about-us></about-us>
       <service-detail></service-detail>
       <services></services>
-      <faq></faq>
-      <projects></projects>
       <contact></contact>
       <google-map></google-map>
       <foot></foot>
@@ -19,8 +17,6 @@
     import AboutUs from "./components/sections/AboutUs.vue"
     import ServiceDetail from './components/sections/ServiceDetail.vue'
     import Services from './components/sections/Services.vue'
-    import Faq from './components/sections/Faq.vue'
-    import Projects from './components/sections/Projects.vue'
     import Contact from './components/sections/Contact.vue'
     import GoogleMap from './components/sections/GoogleMap.vue'
     import Foot from './components/sections/Foot.vue'
@@ -33,8 +29,6 @@
             aboutUs: AboutUs,
             serviceDetail: ServiceDetail,
             services: Services,
-            faq: Faq,
-            projects: Projects,
             contact: Contact,
             googleMap: GoogleMap,
             foot: Foot
