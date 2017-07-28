@@ -5,7 +5,6 @@
       <about-us></about-us>
       <service-detail></service-detail>
       <services></services>
-      <advisor></advisor>
       <faq></faq>
       <projects></projects>
       <contact></contact>
@@ -20,7 +19,6 @@
     import AboutUs from "./components/sections/AboutUs.vue"
     import ServiceDetail from './components/sections/ServiceDetail.vue'
     import Services from './components/sections/Services.vue'
-    import Advisor from './components/sections/Advisor.vue'
     import Faq from './components/sections/Faq.vue'
     import Projects from './components/sections/Projects.vue'
     import Contact from './components/sections/Contact.vue'
@@ -35,7 +33,6 @@
             aboutUs: AboutUs,
             serviceDetail: ServiceDetail,
             services: Services,
-            advisor: Advisor,
             faq: Faq,
             projects: Projects,
             contact: Contact,

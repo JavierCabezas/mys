@@ -10,6 +10,6 @@ if(isset($_POST)) {
     $email = $_POST['email'];
     $number = $_POST['number'];
     $message = "De: ".$name." Teléfono: ".$number." Mensaje: ".$_POST['message'];
-    return mail('ventas@mysempresas', 'Contacto desde el sitio web', $message, $from);
+    return mail('ventas@mysempresas.cl', 'Contacto desde el sitio web', $message, $from);
 }
 
