@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="footer_bottom wow fadeInDown" data-wow-delay=".2s">
-                            <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="#">Designing World</a></p>
+                            <p>MyS CONSULTING GROUP</p>
                         </div>
                         <!-- Bottom Footer Copywrite Text Area End -->
                     </div>

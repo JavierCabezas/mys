@@ -18,12 +18,10 @@
                             <div class="mainmenu">
                                 <nav>
                                     <ul id="nav">
-                                        <li class="current_page_item"><a href="#home">Home</a></li>
-                                        <li><a href="#about">About</a></li>
-                                        <li><a href="#service">Service</a></li>
-                                        <li><a href="#advisor">Advisor</a></li>
-                                        <li><a href="#work">Work</a></li>
-                                        <li><a href="#contact">Contact</a></li>
+                                        <li class="current_page_item"><a href="#home">Inicio</a></li>
+                                        <li><a href="#about">Sobre nosotros</a></li>
+                                        <li><a href="#service">Servicios</a></li>
+                                        <li><a href="#contact">Contacto</a></li>
                                     </ul>
                                 </nav>
                             </div>
