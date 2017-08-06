@@ -107,7 +107,7 @@
 
                     sweetAlert({
                         title: "Oops!",
-                        text: "Something went wrong on the page!",
+                        text: "No se ingresaron todos los campos requeridos",
                         type: "error"
                     });
                 }
@@ -125,9 +125,18 @@
                             vm.form.number = null;
                             vm.form.message = null;
                             vm.form_sent = false;
+                            sweetAlert({
+                                title: "Recibido",
+                                text: "Hemos recibido tu mensaje y te responderemos en el corto plazo.",
+                                type: "success"
+                            });
                         },
                         error: function(){
-                            alert("Reemplazame por un sweetalert de error!");
+                            sweetAlert({
+                                title: "Oops!",
+                                text: "Ocurrió un error, por favor inténtalo nuevamente.",
+                                type: "error"
+                            });
                             vm.form_sent = false
                         }
                     });
