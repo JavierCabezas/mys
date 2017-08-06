@@ -83,6 +83,8 @@
 
 
 <script>
+    require('sweetalert');
+
     export default {
         data () {
             return {
@@ -102,7 +104,12 @@
                 let passes_validation = true;
                 if(vm.form.name === null || vm.form.email === null || vm.form.number === null || vm.form.message === null){
                     passes_validation = false;
-                    alert("reemplazame por un sweetalert!: No se ingresaron todos los cambios requeridos")
+
+                    sweetAlert({
+                        title: "Oops!",
+                        text: "Something went wrong on the page!",
+                        type: "error"
+                    });
                 }
 
 
