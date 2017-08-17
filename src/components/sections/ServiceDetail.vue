@@ -9,35 +9,52 @@
                         <button aria-label="Close" data-dismiss="modal" class="close" type="button"><i class="fa fa-times" aria-hidden="true"></i></button>
                     </div>
                     <!-- modal body start -->
-                    <div class="modal_body">
                         <div class="modal-product">
                             <!-- Service Details Content Area -->
                             <div class="service_details_content">
-                                <!-- Service Details Thumb -->
-                                <div class="service_details_thumb">
-                                    <img :src="service_details_img" alt="">
-                                </div>
-                                <!-- Service Details Text Area -->
-                                <div class="single_part_content">
-                                    <h3>Investment Planning</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut explicabo in, temporibus aliquid eveniet, libero cupiditate, placeat harum quas, laborum mollitia. Molestias et ratione numquam inventore laborum, pariatur aperiam recusandae at sequi veritatis, reiciendis neque, cum deserunt ab optio? Autem cumque beatae repudiandae aut dolorum consequuntur alias quia consequatur iusto!</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur maiores ipsum ratione deleniti labore totam porro rerum.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque perspiciatis unde ut at nesciunt sed doloribus possimus vero sit dolores! Unde in explicabo magnam, reprehenderit non ipsum officia quas esse voluptatibus assumenda.</p>
-                                </div>
-                                <!-- Service Details Text -->
-                                <div class="single_part_content">
-                                    <h3>Business Strategy</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut explicabo in, temporibus aliquid eveniet, libero cupiditate, placeat harum quas, laborum mollitia. Molestias et ratione numquam inventore laborum, pariatur aperiam recusandae at sequi veritatis, reiciendis neque, cum deserunt ab optio? Autem cumque beatae repudiandae aut dolorum consequuntur alias quia consequatur iusto!</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur maiores ipsum ratione deleniti labore totam porro rerum.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque perspiciatis unde ut at nesciunt sed doloribus possimus vero sit dolores! Unde in explicabo magnam, reprehenderit non ipsum officia quas esse voluptatibus assumenda.</p>
-                                </div>
-                                <!-- Service Data Download Area -->
-                                <div class="service_data_dl">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem hic modi id recusandae esse, mollitia, eum sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse similique harum nesciunt, qui doloribus adipisci.</p>
-                                    <a href="dummy-data/worksheet.pdf" class="pdf_dl" download>Download PDF</a>
-                                    <a href="dummy-data/bizpro.doc" class="doc_dl" download>Download DOC</a>
-                                </div>
-                            </div>
+                                    <h3>{{title}} </h3>
+
+                                    <ul v-if="selected_service == 'asesoria'">
+                                        <li>Sistema de Gestión de Seguridad y Salud en el trabajo, OHSAS 18001 </li>
+                                        <li>Sistema de Gestión ambiental, ISO 14001</li>
+                                        <li>Sistema de Gestión de la Calidad, ISO 9001</li>
+                                        <li>Sello de Calidad turística, NCH 3068</li>
+                                        <li>Auditorías internas</li>
+                                        <li>Auditorías de proveedores</li>
+                                        <li>Plan de emergencia, matrices legales y otros</li>
+                                        <li>Modelamiento de procesos</li>
+                                    </ul>
+
+                                    <ul v-if="selected_service == 'capacitaciones'">
+                                        <li>Seguridad y salud en el trabajo</li>
+                                        <li>Curso de conductores de grúa horquilla (vía SENCE, 48 hrs)</li>
+                                        <li>Curso de primeros auxilios en base a riesgos profesionales y accidentes (16 hrs, vía SENCE).</li>
+                                        <li>Curso de introducción a la seguridad y salud ocupacional (incluyendo protocolos, 16 hrs)</li>
+                                        <li>Auditor interno ISO 9001:2015 / 14001:2015</li>
+                                        <li>Auditor interno OHSAS 18001:2007</li>
+                                        <li>Interpretación de requisitos de las normas ISO 9001, ISO 14001 y OHSAS 18001</li>
+                                        <li>Inglés de negocios
+                                            <ul>
+                                                <li> Modelamiento de procesos y uso de plataformas.</li>
+                                                <li> Liderazgo y trabajo en equipo </li>
+                                                <li> Coaching </li>
+                                                <li> Norma 2728 </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                    <p v-if="selected_service == 'traduccion'"> Se realiza el servicio de la traducción técnica de normas y documentos en el idioma inglés. </p>
+
+                                    <p v-if="selected_service == 'modelamiento_procesos'">
+                                        Se realiza servicio de modelamiento de procesos, basado en la norma ISO 9001:2015, utilizando sistemas de diagrama,
+                                        con el cliente. Este servicio permite estandarizar y simplificar procesos dentro de la organización.
+                                    </p>
+
+                                    <p v-if="selected_service == 'auditoria'">
+                                        Se realiza el servicio de auditoría interna basado en las normas ISO  9001 y 14001 versión 2015, OHSAS 18001:2007,
+                                        Buenas prácticas de manufactura, HACCP y FSSC22000 v4. Estos servicios pueden incluir además del reporte formal de
+                                        las no conformidades y evidencias encontradas, el tratamiento de no conformidades y apoyo en auditorías externas.
+                                    </p>
                         </div>
                     </div>
                 </div>
@@ -48,6 +65,7 @@
 
 <script>
     export default {
+        props: [ 'selected_service', 'title' ],
         data () {
             return {
                 service_details_img: "../../src/assets/img/services-img/service-details.jpg",

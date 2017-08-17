@@ -29,7 +29,7 @@
                             </div>
                         </div>
                         <div class="learn_more">
-                            <a data-target="#service_details" data-toggle="modal" href="#">
+                            <a @click="selected = {name: service.name, title: service.title}" data-target="#service_details" data-toggle="modal" href="#">
                                 <h4>Ver más detalles</h4>
                             </a>
                         </div>
@@ -37,56 +37,71 @@
                 </div>
             </div>
         </div>
+        <service-detail :selected_service="selected.name" :title="selected.title"></service-detail>
     </section>
 </template>
 
 <script>
+    import ServiceDetail from './ServiceDetail.vue'
+
     export default {
         data () {
             return {
+                selected: { name: '', title: '' },
                 services: [
                     {
+                        name: 'actualizacion_norma',
                         title: 'Actualización de normas',
                         img: "../../src/assets/img/services-img/actualizacion_normas.png",
                         description: 'Realizado mediante 3 etapas de trabajo; capacitación, información documentada y verificación (seguimiento).'
                     },
                     {
+                        name: 'mantencion_norma',
                         title: 'Mantención y seguimiento en normas',
                         img: "../../src/assets/img/services-img/mantencion_normas.jpg",
                         description: 'A través de un profesional con la preparación y competencias necesarias, se realiza un servicio outsourcing dentro de la empresa, coordinando el o los sistema(s) normativos que se posean'
                     },
                     {
+                        name: 'implementacion_norma',
                         title: 'Implementación de las normas',
                         img: "../../src/assets/img/services-img/implementacion_normas.png",
                         description: 'Realizado mediante 3 etapas de trabajo; capacitación, información documentada y verificación (seguimiento)'
                     },
                     {
+                        name: 'asesoria',
                         title: 'Asesorías',
                         img: "../../src/assets/img/services-img/service-4.jpg",
                         description: 'Dentro de las asesorías estarán las actividades de capacitación, documentación específica y legal en diversos temas, talleres, workshops, modelamiento de procesos, entre otros.'
                     },
                     {
+                        name: 'capacitacion',
                         title: 'Capacitaciones',
                         img: "../../src/assets/img/services-img/capacitaciones.png",
                         description: 'Seguridad y salud, Conductores de grúa horquilla, curso de primeros auxilios, Auditor interno ISO 9001, Auditor interno OHSAS 18001, Ingles básico, y nivel intermedio, entre otros.'
                     },
                     {
+                        name: 'traduccion',
                         title: 'Traducción de normas',
                         img: "../../src/assets/img/services-img/traduccion_normas.png",
                         description: 'Poner una descripción aquí'
                     },
                     {
-                        title: 'Coaching bilingüe',
+                        name: 'modelamiento_procesos',
+                        title: 'Modelamiento de procesos',
                         img: "../../src/assets/img/services-img/coaching_bilingue.png",
                         description: 'Poner descripcion aquí'
                     },
                     {
+                        name: 'auditoria',
                         title: 'Auditoria interna de normas',
                         img: "../../src/assets/img/services-img/service-4.jpg",
                         description: 'Servicio realizado mediante personal profesional y preparado, añadiendo como valor agregado el apoyo y resolución de no conformidades.'
                     }
                 ]
             }
+        },
+        components: {
+            serviceDetail: ServiceDetail
         }
     }
 </script>
