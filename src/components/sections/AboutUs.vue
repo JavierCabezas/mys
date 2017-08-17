@@ -7,7 +7,7 @@
                         <!-- Section Heading Start -->
                         <div class="section_heading">
                             <p>Sobre nosotros</p>
-                            <h3>Bienvenido a M&S consultores</h3>
+                            <h3>Bienvenido a M&S consulting group</h3>
                         </div>
                         <div class="about_us_text">
                             <p>Vigente como empresa consultora desde septiembre del año 2012, trabajando con un equipo de profesionales senior, los cuales son el soporte especialista en las distintas áreas donde presentamos nuestro servicio. </p>
