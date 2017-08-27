@@ -14,7 +14,41 @@
                             <div class="service_details_content">
                                     <h3>{{title}} </h3>
 
-                                    <ul v-if="selected_service == 'asesoria'">
+                                    <div v-if="selected_service=='actualizacion_norma'">
+                                        <p>Realizado mediante 3 etapas de trabajo; capacitación, información documentada y verificación (seguimiento). </p>
+
+                                        <ul>
+                                            <li>Sistema de Gestión ambiental, ISO 14001</li>
+                                            <li>Sistema de Gestión de Calidad, ISO 9001</li>
+                                            <li>Sello de Calidad turística, NCH 3068</li>
+                                        </ul>
+                                    </div>
+
+                                <div v-if="selected_service=='mantencion_norma'">
+                                    <p>A través de un profesional con la preparación y competencias necesarias, se realiza un servicio outsourcing dentro de la empresa, coordinando el o los sistema (s) normativos que se posean.</p>
+
+                                    <ul>
+                                        <li>Sistema de Gestión de Seguridad y Salud en el trabajo, OHSAS 18001</li>
+                                        <li>Sistema de Gestión ambiental, ISO 14001</li>
+                                        <li>Sello de Calidad turística, NCH 3068</li>
+                                        <li>Sistema de Gestión de Calidad, ISO 9001</li>
+                                    </ul>
+                                </div>
+
+
+                                <div v-if="selected_service=='implementacion_norma'">
+                                    <p>Realizado mediante 3 etapas de trabajo; capacitación, información documentada y verificación (seguimiento).</p>
+
+                                    <ul>
+                                        <li>Sistema de Gestión de Seguridad y Salud en el trabajo, OHSAS 18001</li>
+                                        <li>Sistema de Gestión ambiental, ISO 14001</li>
+                                        <li>Sello de Calidad turística, NCH 3068</li>
+                                        <li>Sistema de Gestión de Calidad, ISO 9001</li>
+                                    </ul>
+                                </div>
+
+
+                                <ul v-if="selected_service == 'asesoria'">
                                         <li>Sistema de Gestión de Seguridad y Salud en el trabajo, OHSAS 18001 </li>
                                         <li>Sistema de Gestión ambiental, ISO 14001</li>
                                         <li>Sistema de Gestión de la Calidad, ISO 9001</li>
@@ -25,7 +59,7 @@
                                         <li>Modelamiento de procesos</li>
                                     </ul>
 
-                                    <ul v-if="selected_service == 'capacitaciones'">
+                                    <ul v-if="selected_service == 'capacitacion'">
                                         <li>Seguridad y salud en el trabajo</li>
                                         <li>Curso de conductores de grúa horquilla (vía SENCE, 48 hrs)</li>
                                         <li>Curso de primeros auxilios en base a riesgos profesionales y accidentes (16 hrs, vía SENCE).</li>

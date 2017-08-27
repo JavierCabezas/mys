@@ -64,7 +64,7 @@
                     {
                         name: 'implementacion_norma',
                         title: 'Implementación de las normas',
-                        img: "../../src/assets/img/services-img/implementacion_normas.png",
+                        img: "../../src/assets/img/services-img/implementacion_normas.jpg",
                         description: 'Realizado mediante 3 etapas de trabajo; capacitación, información documentada y verificación (seguimiento)'
                     },
                     {

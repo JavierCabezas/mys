@@ -6,7 +6,7 @@
                     <div class="table_cell">
                         <h2>M&S CONSULTING GROUP</h2>
                         <h3>Making a difference</h3>
-                        <a class="btn btn-default" href="#" role="button">Obtén una cotización</a>
+                        <a class="btn btn-default" href="#contact">Obtén una cotización</a>
                     </div>
                 </div>
             </div>
