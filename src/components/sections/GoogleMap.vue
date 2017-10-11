@@ -8,7 +8,7 @@
     export default {
         mounted: function() {
             var map;
-            var latlng = new google.maps.LatLng(-33.423654,-70.618447);
+            var latlng = new google.maps.LatLng(-33.420638,-70.6095449);
             var stylez = [{
                 featureType: "all",
                 elementType: "all",

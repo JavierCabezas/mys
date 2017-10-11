@@ -10,7 +10,7 @@
                 <div class="col-xs-12">
                     <div class="single_part">
                         <i class="fa fa-globe" aria-hidden="true"></i>
-                        <p>Padre Mariano 391</p>
+                        <p>Santa Magalena 75, oficina 810</p>
                         <p>Providencia, Santiago</p>
                     </div>
                 </div>
@@ -19,6 +19,12 @@
                     <div class="single_part">
                         <i class="fa fa-phone" aria-hidden="true"></i>
                         <a href="tel:+56982933296">+569 829 33296</a>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="single_part">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <a href="tel:+56223346837">+562 2334 6837</a>
                     </div>
                 </div>
 
