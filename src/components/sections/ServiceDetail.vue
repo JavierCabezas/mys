@@ -57,6 +57,9 @@
                                         <li>Auditorías de proveedores</li>
                                         <li>Plan de emergencia, matrices legales y otros</li>
                                         <li>Modelamiento de procesos</li>
+                                        <li>Elaboración de planes de emergencia.</li>
+                                        <li>Elaboración y Validación de matrices legales.</li>
+                                        <li>Traducción de normas e interpretariado</li>
                                     </ul>
 
                                     <ul v-if="selected_service == 'capacitacion'">
@@ -79,9 +82,9 @@
 
                                     <p v-if="selected_service == 'traduccion'"> Se realiza el servicio de la traducción técnica de normas y documentos en el idioma inglés. </p>
 
-                                    <p v-if="selected_service == 'modelamiento_procesos'">
-                                        Se realiza servicio de modelamiento de procesos, basado en la norma ISO 9001:2015, utilizando sistemas de diagrama,
-                                        con el cliente. Este servicio permite estandarizar y simplificar procesos dentro de la organización.
+                                    <p v-if="selected_service == 'implementacion_alimentaria'">
+                                        Realización de servicio de implementacion o actualización de sistemas normativos en el ámbito alimentario, añadiendo la expertise en el área de capacitación, documentación e interpretación de requisitos.
+                                        Normas asociadas: FSSC 22000 - BRC - IFS y HACCP
                                     </p>
 
                                     <p v-if="selected_service == 'auditoria'">

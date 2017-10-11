@@ -57,7 +57,7 @@
                     },
                     {
                         name: 'mantencion_norma',
-                        title: 'Mantención y seguimiento en normas',
+                        title: 'Coordinación de sistemas de normativos',
                         img: "../../src/assets/img/services-img/mantencion_normas.jpg",
                         description: 'A través de un profesional con la preparación y competencias necesarias, se realiza un servicio outsourcing dentro de la empresa, coordinando el o los sistema(s) normativos que se posean'
                     },
@@ -81,20 +81,20 @@
                     },
                     {
                         name: 'traduccion',
-                        title: 'Traducción de normas',
+                        title: ' Prevención de riesgos y salud ocupacional',
                         img: "../../src/assets/img/services-img/traduccion_normas.png",
                         description: 'Poner una descripción aquí'
                     },
                     {
-                        name: 'modelamiento_procesos',
-                        title: 'Modelamiento de procesos',
-                        img: "../../src/assets/img/services-img/coaching_bilingue.png",
+                        name: 'implementacion_alimentaria',
+                        title: 'Implementación de normas alimentarias',
+                        img: "../../src/assets/img/services-img/alimentaria.jpg",
                         description: 'Poner descripcion aquí'
                     },
                     {
                         name: 'auditoria',
-                        title: 'Auditoria interna de normas',
-                        img: "../../src/assets/img/services-img/service-4.jpg",
+                        title: 'Medio ambiente',
+                        img: "../../src/assets/img/services-img/ambiente.png",
                         description: 'Servicio realizado mediante personal profesional y preparado, añadiendo como valor agregado el apoyo y resolución de no conformidades.'
                     }
                 ]
