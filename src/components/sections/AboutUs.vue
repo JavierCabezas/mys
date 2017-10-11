@@ -10,9 +10,9 @@
                             <h3>Bienvenido a M&S consulting group</h3>
                         </div>
                         <div class="about_us_text">
-                            <p>Vigente como empresa consultora desde septiembre del año 2012, trabajando con un equipo de profesionales senior, los cuales son el soporte especialista en las distintas áreas donde presentamos nuestro servicio. </p>
-                            <p> Nuestra misión es entregar valor a nuestros clientes, generando ventajas competitivas para la sustentabilidad de sus servicios o productos, desarrollando soluciones a las necesidades reales de nuestros clientes a través del desarrollo. </p>
-                            <p> La metodología de trabajo de M&S nos permite abordar cualquier tipo de organización de forma integral, independiente de su tamaño, extensión geográfica o rubro.</p>
+                            <p>Vigente como empresa consultora desde septiembre del año 2011, trabajando con un equipo de profesionales senior, los cuales son el soporte especialista en las distintas áreas donde presentamos nuestro servicio. </p>
+                            <p>Nuestra misión es entregar valor a nuestros clientes, generando ventajas competitivas para la sustentabilidad de sus servicios o productos, desarrollando soluciones a las necesidades reales de nuestros clientes a través del excelente trabajo profesional de nuestro equipo.</p>
+                            <p>La metodología de trabajo de M&S nos permite abordar cualquier tipo de organización de forma integral, independiente de su tamaño, extensión geográfica o rubro.</p>
                         </div>
 
                         <div class="signature_area">
