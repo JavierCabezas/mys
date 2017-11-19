@@ -53,7 +53,7 @@
                         name: 'actualizacion_norma',
                         title: 'Actualización de normas',
                         img: "../../src/assets/img/services-img/actualizacion_normas.png",
-                        description: 'Realizado mediante 3 etapas de trabajo; capacitación, información documentada y verificación (seguimiento).'
+                        description: 'el proceso de actualización o implementación se realizara mediante 3 etapas de trabajo: Capacitación, Información documentada y Verificación (seguimiento).'
                     },
                     {
                         name: 'mantencion_norma',
@@ -82,20 +82,20 @@
                     {
                         name: 'traduccion',
                         title: ' Prevención de riesgos y salud ocupacional',
-                        img: "../../src/assets/img/services-img/traduccion_normas.png",
-                        description: 'Poner una descripción aquí'
+                        img: "../../src/assets/img/services-img/prev_riesgos.jpg",
+                        description: 'Servicio realizado por expertos profesionales, gestionando documentación legal, identificación de peligros y su evaluación de riesgos, planes de emergencia entre otros.'
                     },
                     {
                         name: 'implementacion_alimentaria',
                         title: 'Implementación de normas alimentarias',
                         img: "../../src/assets/img/services-img/alimentaria.jpg",
-                        description: 'Poner descripcion aquí'
+                        description: 'Se realizará la implementación de las normas alimentarias gestionando un modelo de actividades en 3 etapas: Capacitaciones, gestión de la documentación y seguimiento.'
                     },
                     {
                         name: 'auditoria',
                         title: 'Medio ambiente',
                         img: "../../src/assets/img/services-img/ambiente.png",
-                        description: 'Servicio realizado mediante personal profesional y preparado, añadiendo como valor agregado el apoyo y resolución de no conformidades.'
+                        description: 'Ponemos a disposición una amplia gama de conocimientos en gestión y ejecución  en temas ambientales.'
                     }
                 ]
             }
